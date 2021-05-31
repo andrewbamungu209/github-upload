@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(images/36307.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 2000px;
+
+}
+
+
+.navbar-brand{
+    color: black;
+    font-family: 'Limelight', cursive;
+    color: #008ad3;
+    background-color: black;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.navbar-brand:hover{
+    color: #008ad3;
+}
+
+.container{
+ 
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    padding: 20px;
+    
+}
+.container a{
+    color: rgb(176, 209, 30);
+    font-weight: 500;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container a:hover{
+    color: crimson;
+    background: rgba(31, 7, 7, 0.479);
+transition: 0.7s;
+}
+.active{
+    background-color: black;
+    padding: 20px;
+}
+#mo{
+    color: crimson;
+    padding: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+}
+.btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color:crimson;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.btn a:hover{
+    color:crimson;
+  border: 1px solid crimson;
+  transition: 0.7s; 
+  background-color: white;
+}
+.title h1{
+    font-family: 'Limelight', cursive;
+    color: crimson;
+    display: table;
+}
+
+.form{
+    display: table-caption;
+    justify-content: center;
+    align-items: center;
+ padding: 70px;
+    margin-top: 60px;
+    background-color:rgba(5, 0, 0, 0.781);
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 15px;
+border:  1px solid crimson;
+border-radius: 8px;
+}
+.form button{
+    color: white;
+    margin-top: 40px;
+    background-color: crimson;
+    width: 200px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+
+}
+.form button:hover{
+    background-color: rgba(220, 20, 60, 0);
+border:  1px solid crimson;
+transition: 0.7s;
+
+}
+
+.container h2{
+    margin-top: 300px;
+}
+
+.slogan{
+    
+ 
+    margin-top: 100px;
+   display: flex;
+    justify-content: center;
+
+    width: 500px;
+    border-radius: 100px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.slogan h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    color: crimson;
+    display: table-caption;
+    font-size: 40px;
+    font-family: 'Limelight', cursive;
+background-color: rgba(0, 0, 0, 0.623);
+}
+
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
